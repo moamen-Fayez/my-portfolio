@@ -1,0 +1,72 @@
+.contact {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    height: 452px;
+  }
+  
+  .aboutt {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    background-color: #21325e;
+    color: #f0f0f0;
+  }
+  
+  .aboutt h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #e9d35b;
+    height: 50px;
+    padding-right: 10%;
+    
+  }
+  
+  .aboutt .promptt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .promptt svg {
+    font-size: 30px;
+    margin: -1px;
+    color: white;
+  }
+  
+  .aboutt a {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  .mrg svg {
+    margin-right: 6px;
+  }
+  @media only screen and (max-width: 1287px) {
+    .aboutt h2 { 
+      display: flex;
+     font-size: 36px;
+     justify-content: center;  
+     padding-left: 42%;
+    }
+    .aboutt {
+       align-items: flex-start;
+        
+    }
+    .aboutt p {
+        display: flex;
+        font-size: 22px;
+        margin-left: 25px;
+    }
+    .aboutt p svg {
+      margin-right: 13px;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    .aboutt h2 {
+      padding-left: 25%;
+      font-size: 30px;
+    }
+  }
